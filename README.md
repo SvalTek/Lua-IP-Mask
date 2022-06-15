@@ -8,7 +8,7 @@ get the latest release from the releases section or build yourself using [luvi](
 #### usage instructions
 
 put luaipmask somwhere easy to get to _prefereably somwhere in your path see [windows](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) 
-linux: just stick it in your users private bin. or `/user/bin`
+linux: just stick it in your users private bin. or `/usr/bin`
 
 its a simple tool. either
 luaipmask ./ipaddresses.txt                           -- prints the contents of a file with "masked" ip addresses to the console
