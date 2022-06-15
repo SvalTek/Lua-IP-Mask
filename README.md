@@ -7,14 +7,16 @@ get the latest release from the releases section or build yourself using [luvi](
 ---
 #### usage instructions
 
-put luaipmask somwhere easy to get to _prefereably somwhere in your path see [windows](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) 
-linux: just stick it in your users private bin. or `/usr/bin`
+put luaipmask somwhere easy to get to _prefereably somwhere in your path_
+see: [windows](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)  
+Linux: just stick it in your users private bin. or `/usr/bin`  
 
-its a simple tool. either
-luaipmask ./ipaddresses.txt                           -- prints the contents of a file with "masked" ip addresses to the console
-luaipmask ./ipaddresses.txt > maskedAddresses.txt     -- redirects the printed "masked" file to a new "masked" file
-ipconfig | luaipmask                                  -- prints the output of a command with "masked" ip addresses
-ipconfig | luaipmask > maskedAddresses.txt            -- redirect the piped output to a "masked" file
+its a simple tool:
+
+luaipmask ./ipaddresses.txt                           -- prints the contents of a file with "masked" ip addresses to the console  
+luaipmask ./ipaddresses.txt > maskedAddresses.txt     -- redirects the printed "masked" file to a new "masked" file  
+ipconfig | luaipmask                                  -- prints the output of a command with "masked" ip addresses  
+ipconfig | luaipmask > maskedAddresses.txt            -- redirect the piped output to a "masked" file  
 
 #### screenshots
 
@@ -26,13 +28,13 @@ windows usage
 
 
 thats all for now :)
+
 suggestions/improvements are welcomed - Issues must be relevant. non relevant discusion will be closed...
 
 ---
 #### build instructions
 
-download the repo and copy the cintents to a folder called `ipmask`
-or clone it using `git clone https://github.com/SvalTek/Lua-IP-Mask ipmask`
-run luvi with the following arguments `luvi ./ipmask/ -o luaipmask` (if on windows luaipmask.exe)
-this will bundle the script into a zip and append it to the end of luvi's "launcher"
-
+download the repo and copy the cintents to a folder called `ipmask`  
+or clone it using `git clone https://github.com/SvalTek/Lua-IP-Mask ipmask`  
+run luvi with the following arguments `luvi ./ipmask/ -o luaipmask` (if on windows luaipmask.exe)  
+this will bundle the script into a zip and append it to the end of luvi's "launcher"  
