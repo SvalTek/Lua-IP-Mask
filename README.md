@@ -14,7 +14,7 @@ Linux: just stick it in your users private bin. or `/usr/bin`
 its a simple tool:
 
 luaipmask ./ipaddresses.txt                           -- prints the contents of a file with "masked" ip addresses to the console  
-luaipmask ./ipaddresses.txt > maskedAddresses.txt     -- redirects the printed "masked" file to a new "masked" file  
+luaipmask ./ipaddresses.txt > maskedAddresses.txt     -- redirects the file contents to a new "masked" file  
 ipconfig | luaipmask                                  -- prints the output of a command with "masked" ip addresses  
 ipconfig | luaipmask > maskedAddresses.txt            -- redirect the piped output to a "masked" file  
 
